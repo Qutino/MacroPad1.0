@@ -2,7 +2,7 @@
 My first macro pad design!
 
 ## Intent
-This small macropad is meant to be a small prototype and proof of concept for an evolving and iterating design.
+This small macropad is meant to be a prototype and proof of concept for an evolving and iterating design.
 
 Since this will be my first experience building the supporting electronics around an ATMEGA32U4 microcontroller, 
 as well as building and flashing the firmware from zero, a design with a smaller scope seemed like the best way to jump into things.
