@@ -2,12 +2,12 @@
 My first macro pad design!
 
 ## Intent
-This small macropad is meant to be a small prototype and proof of concept for an evolving and iterating design.
+This small macropad is meant to be a prototype and proof of concept for an evolving and iterating design.
 
 Since this will be my first experience building the supporting electronics around an ATMEGA32U4 microcontroller, 
 as well as building and flashing the firmware from zero, a design with a smaller scope seemed like the best way to jump into things.
 
-## Design
+## Design Notes
 1. Switches
     - This macropad will house 6 mechanical keyswitches, typical MX style and size.
 2. Dimensions
@@ -22,4 +22,4 @@ as well as building and flashing the firmware from zero, a design with a smaller
 5. Current protection
     - 500mA fuse
 6. Voltage protection
-    - None, flyback diode would have been a good add...
+    - None, reverse voltage protection may have been a good add...
