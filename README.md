@@ -44,7 +44,8 @@ as well as building and flashing the firmware from zero, a design with a smaller
   - The PCB is 76.66mm x 42.86mm (LxW) with a notch protruding for the USB connector
   - For case designers, more detailed dimensions can be found [Here](KiCad/MacroPad1.0/MacroPad1.1_dims0.pdf) in the KiCad folder.
 - Mounting
-  - No holes in the PCB means the design is reliant on the plate be the main mounting structure. either using screwholes or a sandwiched gasket mount design. This is usually preferred in order to decrease the mechanical stress on the PCB itself during operation.
+  - No holes in the PCB means the design is reliant on the plate be the main mounting structure. Either using screw holes or a sandwiched gasket mount design.
+  - This is usually preferred in order to decrease the mechanical stress on the PCB itself during operation.
   - Next time include at least *one* hole in the PCB, for emergencies.
 - MCU
   - ATMEGA32U4-AUR Microcontroller
@@ -59,6 +60,9 @@ as well as building and flashing the firmware from zero, a design with a smaller
 
 ## Build Guide
 - I'll create a step by step guide in a different doc soon!
+
+## Case Design Notes
+- Coming soon
 
 ## Parts Notes
 
@@ -167,7 +171,7 @@ $$ \therefore C_x = 14pF$$
 
 #### Grounding mask
 - Added Grounding mask around USB, MCU, and Crystal area. 
-- none around switches since that shouldn't be an area that would attract too much unwanted noise. Reassess if possible.
+- none around switches since that shouldn't be an area that would attract too much unwanted noise. Re-assess if possible.
 
 #### Crystal Placement
 - Crystal placed as close as reasonably possible to the XTAL pins on the MCU.
@@ -184,6 +188,8 @@ $$ \therefore C_x = 14pF$$
 #### MFR
 - Produced by JLCPCB, very afforable. Might consider factory population at some point.
 
+## Firmware
+- documentation coming soon
 
 ## Future Improvements
 In order of most to least likely to implement
@@ -195,4 +201,4 @@ In order of most to least likely to implement
   5. USB C connector, or at least micro USB
   6. OLED display
   7. Through hole style Crystal Oscillator for easier soldering? low priority, since a smaller MCU will also be difficult to solder
-  8. Bluetooth??
+  8. Bluetooth?? + Battery??
