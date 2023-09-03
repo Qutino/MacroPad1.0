@@ -123,11 +123,16 @@ as well as building and flashing the firmware from zero, a design with a smaller
 #### Crystal Oscillator
 - Load Capacitance: 9pF
     - The circuit was originally designed with incorrect values (1uF) chosen for the load capacitors. 
-    - we can use the following equation to determine the correct load capacitance
+    - we can use the following equation to determine the correct values for the external load capacitors for a parallel resonant crystal.
+
 $$ C_L = (C_{x1}*C_{x2})/(C_{x1} + C_{x2}) + C_{stray} $$
+
 $$C_{x1} = C_{x2}$$
+
 $$ C_x = 2(C_L - C_{stray}) $$
+
 $$ C_L = 9pF, C_{stray} = 2pF$$
+
 $$ \therefore C_x = 14pF$$
 
 - Assuming a stray capacitance of 2pF, our resulting Load Capacitors C2 and C3 should be around **14pF**. (quite a lot lower than 1uF xd)
