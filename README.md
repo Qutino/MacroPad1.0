@@ -9,6 +9,7 @@ as well as building and flashing the firmware from zero, a design with a smaller
   - [Table of Contents](#table-of-contents)
   - [General Design Notes](#general-design-notes)
   - [Build Guide](#build-guide)
+  - [Case Design Notes](#case-design-notes)
   - [Parts Notes](#parts-notes)
     - [HTML BOM](#html-bom)
     - [1. MCU](#1-mcu)
@@ -34,6 +35,7 @@ as well as building and flashing the firmware from zero, a design with a smaller
     - [Production](#production)
       - [Surface Finish](#surface-finish)
       - [MFR](#mfr)
+  - [Firmware](#firmware)
   - [Future Improvements](#future-improvements)
 
 ## General Design Notes
