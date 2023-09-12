@@ -198,9 +198,11 @@ In order of most to least likely to implement
 
   1. More switches
   2. Hotswap sockets
-  3. Rotary encoder
-  4. smaller MCU form factor, either VQFN ATmega32u4-MUR, or RP2040
-  5. USB C connector, or at least micro USB
-  6. OLED display
-  7. Through hole style Crystal Oscillator for easier soldering? low priority, since a smaller MCU will also be difficult to solder
-  8. Bluetooth?? + Battery??
+  3. Power Indication LED
+  5. Rotary encoder
+  6. smaller MCU form factor, either VQFN ATmega32u4-MUR, or RP2040
+  7. USB C connector, or at least micro USB
+  8. RGB
+  9. OLED display
+  10. Through hole style Crystal Oscillator for easier soldering? low priority, since a smaller MCU will also be difficult to solder
+  11. Bluetooth?? + Battery??
