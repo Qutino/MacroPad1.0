@@ -115,7 +115,7 @@ as well as building and flashing the firmware from zero, a design with a smaller
 
 ### Schematic
 
-<img src="Images/Screenshots/2023-09-03 00_13_37-_MacroPad1.0 [MacroPad1.0_] — Schematic Editor.png" alt="PCB-layout" width="600"/>
+<img src="Images/Screenshots/Screenshot 2024-10-25 180650 - macropad1.0-Sch.png" alt="PCB-layout" width="600"/>
 
 #### Decoupling Capacitors
 - 0.1uF and 10uF decoupling capacitors are used to remove unwanted power distortion.
