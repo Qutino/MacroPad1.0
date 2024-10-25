@@ -1,5 +1,5 @@
 # MacroPad1.0
-This small macropad is the prototype and proof of concept for an evolving and iterating design.
+This small macropad is the prototype with the intent of adding future improvements and iterating design further down the road.
 
 Since this will be my first time building the supporting electronics around an ATMEGA32U4 microcontroller, 
 as well as building and flashing the firmware from zero, a design with a smaller scope seemed like the best way to jump into things.
