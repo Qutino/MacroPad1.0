@@ -1,11 +1,11 @@
-# MacroPad1.0
-This small macropad is the prototype and proof of concept for an evolving and iterating design.
+# MacroPad1.1
+This small macropad is the prototype with the intent of adding future improvements and iterating design further down the road.
 
 Since this will be my first time building the supporting electronics around an ATMEGA32U4 microcontroller, 
 as well as building and flashing the firmware from zero, a design with a smaller scope seemed like the best way to jump into things.
 
 ## Table of Contents
-- [MacroPad1.0](#macropad10)
+- [MacroPad1.1](#macropad11)
   - [Table of Contents](#table-of-contents)
   - [General Design Notes](#general-design-notes)
   - [Build Guide](#build-guide)
@@ -115,7 +115,7 @@ as well as building and flashing the firmware from zero, a design with a smaller
 
 ### Schematic
 
-<img src="Images/Screenshots/2023-09-03 00_13_37-_MacroPad1.0 [MacroPad1.0_] — Schematic Editor.png" alt="PCB-layout" width="600"/>
+<img src="Images/Screenshots/Screenshot 2024-10-25 180650 - macropad1.0-Sch.png" alt="PCB-layout" width="600"/>
 
 #### Decoupling Capacitors
 - 0.1uF and 10uF decoupling capacitors are used to remove unwanted power distortion.
